@@ -14,6 +14,10 @@ module.exports = {
       },
       colors: {
         onepcblue: "#00a1d4",
+        darkgrey: "#565657",
+      },
+      fontFamily: {
+        notosans: ["Noto Sans", "sans-serif"],
       },
     },
   },
