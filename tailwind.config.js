@@ -11,10 +11,12 @@ module.exports = {
         light: "#f7f1e8",
         onepcblue: "#00a1d4",
         darkgrey: "#313e50",
+        lightorange: "#ee7a57",
       },
       colors: {
         onepcblue: "#00a1d4",
         darkgrey: "#565657",
+        lightorange: "#ee7a57",
       },
       fontFamily: {
         notosans: ["Noto Sans", "sans-serif"],
