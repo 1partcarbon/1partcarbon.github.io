@@ -11,6 +11,7 @@ module.exports = {
         light: "#f7f1e8",
         onepcblue: "#00a1d4",
         darkgrey: "#313e50",
+        onepcgrey: "#565657",
         lightorange: "#ee7a57",
       },
       colors: {
