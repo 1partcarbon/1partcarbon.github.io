@@ -16,6 +16,11 @@ As displaying one partner logo at a time did not express the large number of
 partners we have worked with, it was desided to just display the logos using
 a css grid.
 
+The ShieldForce images do not have the cool zoom transision and text on mouse
+over. This would not difficult to add at some point. It was left out just to
+save time and did not seem too important to the message of helping out with
+ShieldForce.
+
 ## Development
 
 ### Live Server
@@ -38,3 +43,10 @@ npx tailwindcss -i ./src/input.css -o ./public/styles.css --watch
 ### HTML
 
 The index page to edit can be found at: `/public/index.html`
+
+## Future Improvements
+
+This site code could be easily converted to a Svelte site and then be easier to
+maintain. There is a lot of cut-n-paste sections such as the navigation header
+and footers repeated over each page. Using Svelte or similar would eliminate
+this making future edits easier.
