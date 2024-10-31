@@ -29,7 +29,7 @@ For development, a simple live-server can be use:
 
 ```
 pnpm install live-server
-pnpm live-server ~/Documents/Programming/1partCarbon/1partcarbon.github.io/public/
+pnpm live-server ~/Documents/Programming/1partCarbon/1partcarbon.github.io/docs/
 ```
 
 ### Tailwindcss
@@ -37,12 +37,12 @@ pnpm live-server ~/Documents/Programming/1partCarbon/1partcarbon.github.io/publi
 To compile the tailwindcss source into an output css file use:
 
 ```
-npx tailwindcss -i ./src/input.css -o ./public/styles.css --watch
+npx tailwindcss -i ./src/input.css -o ./docs/styles.css --watch
 ```
 
 ### HTML
 
-The index page to edit can be found at: `/public/index.html`
+The index page to edit can be found at: `/docs/index.html`
 
 ## Future Improvements
 
