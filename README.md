@@ -44,6 +44,12 @@ npx tailwindcss -i ./src/input.css -o ./docs/styles.css --watch
 
 The index page to edit can be found at: `/docs/index.html`
 
+## Deployment
+
+The actual deployments should be automatic. Originally we were using GitHub pages,
+but for some extra settings we moved it to CloudFlare pages. Pushes to main will
+cause a live deployment.
+
 ## Future Improvements
 
 This site code could be easily converted to a Svelte site and then be easier to
